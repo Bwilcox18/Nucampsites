@@ -44,7 +44,7 @@ class Directory extends Component {
             return <div>Loading...</div>;
         } else {
             return (
-                <div className="col">
+                <div className="col pt-3">
                     <ul>
                         {items.campsites.map(item => (
                         <li key={item.id}>
